@@ -1,2 +1,2 @@
 # to-do-list
-Under construction to do list for practicing using Django
+To-do list under construction to practice using Django.
