@@ -1,1 +1,11 @@
 <h3>To Do</h3>
+
+{% for task in tasks %}
+    <div>
+        <p>{{task}}</p>
+    </div>
+{% endfor %}
+
+<!-- {% %} and {{ }} are part of Django templating language. 
+    They are used to pass the variables from views to template. 
+    {% %} is basically used when you have an expression and are called tags while {{ }} is used to simply access the variable.-->

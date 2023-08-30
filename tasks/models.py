@@ -17,3 +17,9 @@ class Task(models.Model):
 
     def __str__(self):
         return self.title
+    
+# whenever you code up a new model you also generate a migration
+# the migration is to create the necessary table in the database (create database tables without writing any SQL (but it can do more))
+# comand to prepare the database: python manage.py makemigrations
+# to actually migrate it: python manage.py migrate
+#if you go straight to the admin panel you won't see the table yet, so it's necessary to register it first at admin.py
